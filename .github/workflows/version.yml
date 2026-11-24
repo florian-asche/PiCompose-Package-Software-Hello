@@ -21,7 +21,7 @@ concurrency:
 jobs:
   version:
     name: Version
-    uses: florian-asche/PiCompose-Repository/.github/workflows/package-version.yml@v1.0.0
+    uses: florian-asche/PiCompose-Repository/.github/workflows/package-version.yml@v1.1.0
     with:
       level: ${{ inputs.level }}
     permissions:
